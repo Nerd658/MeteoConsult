@@ -16,6 +16,16 @@ Le Détecteur de Météo permet aux utilisateurs de rechercher des informations 
   - Coordonnées
   - Code du pays
 
+  #Structure du projet
+
+  -templates/ - Contient les fichiers HTML pour l'interface utilisateur
+  -weather/ - Module principal pour les fonctionnalités météorologiques
+  -weatherdetector/ - Module principal du projet Django
+  -.qovery.yml - Configuration pour le déploiement sur Qovery
+  -Dockerfile - Configuration pour la conteneurisation de l'application
+  -db.sqlite3 - Base de données SQLite pour stocker les informations
+  -manage.py - Script de gestion Django
+
 ## Prérequis
 
 - Python 3.x
@@ -24,3 +34,6 @@ Le Détecteur de Météo permet aux utilisateurs de rechercher des informations 
 - Bootstrap (pour le design)
 - jQuery (pour les interactions)
 - OpenWeather API (pour les données météorologiques)
+
+#Déploiement
+L'application peut être déployée via Docker ou sur la plateforme Qovery en utilisant les fichiers de configuration fournis.
