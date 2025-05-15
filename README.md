@@ -1,4 +1,4 @@
-# Détecteur de Météo
+# MétéoConsult
 
 Ce projet est une application web de détection de météo, développée avec Django et utilisant l'API OpenWeather pour obtenir des données météorologiques.
 
